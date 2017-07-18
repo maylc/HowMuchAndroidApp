@@ -1,0 +1,72 @@
+<resources>
+
+    <string name="app_name">How Much?</string>
+
+    <!-- Default Values -->
+
+    <string name="default_province_code">ab</string>
+    <string name="default_currency_code">BRL</string>
+    <string name="default_manual_input_code">MANUAL</string>
+
+    <!-- Navigation Titles -->
+
+    <string name="title_exchange">How Much?</string>
+    <string name="title_wish_list">Favorites</string>
+    <string name="title_currency_rate">Exchange Rate</string>
+    <string name="title_preferences">Preferences</string>
+
+    <!-- Dialog Titles -->
+
+    <string name="msg_dialog_title_alert">Alert</string>
+    <string name="msg_dialog_title_delete">Delete</string>
+
+    <!-- Currency Rate Form -->
+
+    <string name="currency_rate_form_source">Source of information:</string>
+    <string name="currency_rate_form_date">Update date:</string>
+    <string name="currency_rate_form_rate">Canadian Dollar exchange rate:</string>
+    <string name="currency_rate_form_switch">Auto exchange rate</string>
+    <string name="currency_rate_form_btn_auto">Get exchange rate</string>
+    <string name="currency_rate_form_btn_manual">Save</string>
+    <string name="currency_rate_form_font_manual">Manual input</string>
+
+    <!-- Exchange Form -->
+
+    <string name="exchange_form_price">Price</string>
+    <string name="exchange_form_tax">Total tax:</string>
+    <string name="exchange_form_final_price">Price with tax:</string>
+    <string name="exchange_form_currency_rate">Exchange rate:</string>
+    <string name="exchange_form_converted_price">Approximate value in Brazilian Real:</string>
+    <string name="exchange_form_invalid_value">Insert a valid price!</string>
+
+    <!-- Preferences Form -->
+
+    <string name="preferences_form_currency">Currency:</string>
+    <string name="preferences_form_currency_val">BRL - Brazilian Real</string>
+    <string name="preferences_form_update">Auto update exchange rate</string>
+    <string name="preferences_form_province">Province:</string>
+    <string name="preferences_form_select_province">Select a province:</string>
+    <string name="preferences_form_auto_update_info">Updates each time the app is opened (requires internet connection).</string>
+
+    <!-- WishList Form -->
+
+    <string name="wishlist_form_name">Name:</string>
+    <string name="wishlist_form_store">Store:</string>
+
+    <!-- Mensages -->
+
+    <string name="msg_no_item_found">No items found.</string>
+    <string name="msg_dialog_no_preference_found">To use this resource you need to fill in your province in the preferences tab.</string>
+    <string name="msg_dialog_no_province_found">Province information could not be found.</string>
+    <string name="msg_dialog_no_currency_rate_found">Please, fill in the exchange rate in the exchange rate tab.</string>
+    <string name="msg_dialog_wishlist_input_error">Name and store can not be empty</string>
+    <string name="msg_dialog_wishlist_success">Saved to favourites</string>
+    <string name="msg_dialog_wishlist_db_error">Error saving to favourites</string>
+    <string name="msg_dialog_wishlist_delete">will be removed from your list. Do you want to continue?</string>
+
+    <!-- Return -->
+
+    <string name="msg_update">Data updated successfully!</string>
+    <string name="msg_delete">was removed</string>
+
+</resources>

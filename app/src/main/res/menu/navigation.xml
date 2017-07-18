@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_exchange"
+        android:icon="@drawable/ic_money"
+        android:title="@string/title_exchange" />
+
+    <item
+        android:id="@+id/navigation_currency_rate"
+        android:icon="@drawable/ic_dollar"
+        android:title="@string/title_currency_rate" />
+
+    <item
+        android:id="@+id/navigation_wish_list"
+        android:icon="@drawable/ic_heart"
+        android:title="@string/title_wish_list" />
+
+    <item
+        android:id="@+id/navigation_preferences"
+        android:icon="@drawable/ic_preferences_32"
+        android:title="@string/title_preferences" />
+
+</menu>

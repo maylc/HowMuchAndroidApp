@@ -1,0 +1,72 @@
+<resources>
+
+    <string name="app_name">Quanto Custa?</string>
+
+    <!-- Default Values -->
+
+    <string name="default_province_code">ab</string>
+    <string name="default_currency_code">BRL</string>
+    <string name="default_manual_input_code">MANUAL</string>
+
+    <!-- Navigation Titles -->
+
+    <string name="title_exchange">Quanto Custa?</string>
+    <string name="title_wish_list">Favoritos</string>
+    <string name="title_currency_rate">Cotação</string>
+    <string name="title_preferences">Preferências</string>
+
+    <!-- Dialog Titles -->
+
+    <string name="msg_dialog_title_alert">Importante</string>
+    <string name="msg_dialog_title_delete">Confirmar Remoção</string>
+
+    <!-- Currency Rate Form -->
+
+    <string name="currency_rate_form_source">Fonte da informação:</string>
+    <string name="currency_rate_form_date">Data da atualização:</string>
+    <string name="currency_rate_form_rate">Cotação do Dólar Canadense:</string>
+    <string name="currency_rate_form_switch">Cotação automática</string>
+    <string name="currency_rate_form_btn_auto">Get Exchange Rate</string>
+    <string name="currency_rate_form_btn_manual">Salvar</string>
+    <string name="currency_rate_form_font_manual">Input Manual</string>
+
+    <!-- Exchange Form -->
+
+    <string name="exchange_form_price">Valor do Produto</string>
+    <string name="exchange_form_tax">Total de Impostos:</string>
+    <string name="exchange_form_final_price">Valor Final do Produto:</string>
+    <string name="exchange_form_currency_rate">Cotação do Dólar Utilizada:</string>
+    <string name="exchange_form_converted_price">Valor Aproximado em Real:</string>
+    <string name="exchange_form_invalid_value">Informe um preço válido!</string>
+
+    <!-- Preferences Form -->
+
+    <string name="preferences_form_currency">Moeda</string>
+    <string name="preferences_form_currency_val">BRL - Real Brasileiro</string>
+    <string name="preferences_form_update">Atualização automática da cotação</string>
+    <string name="preferences_form_province">Província:</string>
+    <string name="preferences_form_select_province">Selecione uma província</string>
+    <string name="preferences_form_auto_update_info">Atualiza toda vez que o aplicativo for aberto (requer conexão com a internet).</string>
+
+    <!-- WishList Form -->
+
+    <string name="wishlist_form_name">Nome do item:</string>
+    <string name="wishlist_form_store">Loja:</string>
+
+    <!-- Mensages -->
+
+    <string name="msg_no_item_found">Nenhum item encontrado.</string>
+    <string name="msg_dialog_no_preference_found">Para utilizar essa funcionalidade é necessário preencher sua província na aba Preferências.</string>
+    <string name="msg_dialog_no_province_found">Província não encontrada.</string>
+    <string name="msg_dialog_no_currency_rate_found">Preencha a taxa de câmbio na aba Cotação.</string>
+    <string name="msg_dialog_wishlist_input_error">Os campos Nome e Loja são obrigatórios</string>
+    <string name="msg_dialog_wishlist_success">Consulta salva nos favoritos</string>
+    <string name="msg_dialog_wishlist_db_error">Erro ao salvar consulta</string>
+    <string name="msg_dialog_wishlist_delete">será removido da sua lista. Deseja continuar?</string>
+
+    <!-- Return -->
+
+    <string name="msg_update">Dados atualizados com sucesso!</string>
+    <string name="msg_delete">foi removido</string>
+
+</resources>
