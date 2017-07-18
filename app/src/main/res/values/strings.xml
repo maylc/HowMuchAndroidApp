@@ -19,6 +19,7 @@
 
     <string name="msg_dialog_title_alert">Alert</string>
     <string name="msg_dialog_title_delete">Delete</string>
+    <string name="msg_dialog_title_wishlist">New Favorite</string>
 
     <!-- Currency Rate Form -->
 

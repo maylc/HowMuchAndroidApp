@@ -50,10 +50,14 @@ public class MessageHelper
         return this.context.getResources().getString(R.string.preferences_form_select_province);
     }
 
-
     public String getDeleteDialogTitle()
     {
         return this.context.getResources().getString(R.string.msg_dialog_title_delete);
+    }
+
+    public String getWishListDialogTitle()
+    {
+        return this.context.getResources().getString(R.string.msg_dialog_title_wishlist);
     }
 
     public String getConfirmDeleteMessage()

@@ -446,7 +446,7 @@ public class ExchangeFragment extends Fragment
         dialogStore = (EditText) wishlistDialogView.findViewById(R.id.dialog_wishlist_store);
 
         alertDialogBuilder.setView(wishlistDialogView);
-        alertDialogBuilder.setTitle("New Wish List");
+        alertDialogBuilder.setTitle(messageHelper.getWishListDialogTitle());
 
         alertDialogBuilder.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener()
         {
