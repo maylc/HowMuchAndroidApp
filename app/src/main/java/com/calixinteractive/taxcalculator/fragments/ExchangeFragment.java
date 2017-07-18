@@ -4,6 +4,8 @@ import android.app.Fragment;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -60,13 +62,13 @@ public class ExchangeFragment extends Fragment
         /****************************************************************************************/
         // Get View Components
 
-        initPrice     = (EditText)    view.findViewById(R.id.frag_exchange_price);
-        totalTaxes    = (EditText)    view.findViewById(R.id.frag_exchange_total_taxes);
-        finalPrice    = (EditText)    view.findViewById(R.id.frag_exchange_final_price);
-        currencyRate  = (EditText)    view.findViewById(R.id.frag_exchange_currency_rate);
-        convertPrice  = (EditText)    view.findViewById(R.id.frag_exchange_converted_price);
-        btnUpdate     = (ImageButton) view.findViewById(R.id.frag_exchange_btn_update);
-        btnSave       = (ImageButton) view.findViewById(R.id.frag_exchange_btn_save);
+        initPrice      = (EditText)    view.findViewById(R.id.frag_exchange_price);
+        totalTaxes     = (EditText)    view.findViewById(R.id.frag_exchange_total_taxes);
+        finalPrice     = (EditText)    view.findViewById(R.id.frag_exchange_final_price);
+        currencyRate   = (EditText)    view.findViewById(R.id.frag_exchange_currency_rate);
+        convertPrice   = (EditText)    view.findViewById(R.id.frag_exchange_converted_price);
+        btnUpdate      = (ImageButton) view.findViewById(R.id.frag_exchange_btn_update);
+        btnSave        = (ImageButton) view.findViewById(R.id.frag_exchange_btn_save);
 
         /****************************************************************************************/
         // Get Other Components

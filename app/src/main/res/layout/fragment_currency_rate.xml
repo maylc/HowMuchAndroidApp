@@ -10,23 +10,15 @@
 
         <Switch
             android:id="@+id/frag_currency_switch"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:checked="true"
             android:paddingRight="50dp"
             android:text="@string/currency_rate_form_switch"
             android:textColor="#939393"
-            android:layout_weight=".9"
-            android:textSize="18sp" />
 
-        <ImageButton
-            android:id="@+id/frag_currency_btn_refresh"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_weight=".1"
-            android:src="@drawable/ic_refresh_24" />
+            android:textSize="18sp" />
 
     </LinearLayout>
 

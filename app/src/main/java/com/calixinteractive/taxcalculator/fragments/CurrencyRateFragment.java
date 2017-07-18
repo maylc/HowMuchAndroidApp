@@ -31,7 +31,6 @@ public class CurrencyRateFragment extends Fragment
     private MainActivity mainActivity;
 
     private Switch      autoFillForm;
-    private ImageButton btnRefresh;
     private Button      btnSave;
     private EditText    source;
     private EditText    date;
@@ -50,7 +49,6 @@ public class CurrencyRateFragment extends Fragment
         // Get View Components
 
         autoFillForm = (Switch)      view.findViewById(R.id.frag_currency_switch);
-        btnRefresh   = (ImageButton) view.findViewById(R.id.frag_currency_btn_refresh);
         btnSave      = (Button)      view.findViewById(R.id.frag_currency_btn_save);
         source       = (EditText)    view.findViewById(R.id.frag_currency_font);
         date         = (EditText)    view.findViewById(R.id.frag_currency_date);
@@ -191,13 +189,11 @@ public class CurrencyRateFragment extends Fragment
     {
         if (isAuto)
         {
-            btnRefresh.setVisibility(View.VISIBLE);
             btnSave.setVisibility(View.INVISIBLE);
             valRate.setEnabled(false);
         }
         else
         {
-            btnRefresh.setVisibility(View.INVISIBLE);
             btnSave.setVisibility(View.VISIBLE);
             valRate.setEnabled(true);
         }
