@@ -6,7 +6,8 @@
 
     <LinearLayout
         style="@style/SubMenu"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:padding="16dp">
 
         <Switch
             android:id="@+id/frag_currency_switch"
@@ -14,7 +15,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:checked="true"
-            android:paddingRight="50dp"
+
             android:text="@string/currency_rate_form_switch"
             android:textColor="#939393"
 
